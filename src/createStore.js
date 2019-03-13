@@ -19,8 +19,6 @@ function render() {
 
 let store = createStore(reducer)
 store.dispatch({ type: '@@INIT' });
-let button = document.getElementById('button');
 
-button.addEventListener('click', function() {
-  store.dispatch({ type: 'INCREASE_COUNT' });
-});
+
+
