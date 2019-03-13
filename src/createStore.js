@@ -19,6 +19,3 @@ function render() {
 
 let store = createStore(reducer)
 store.dispatch({ type: '@@INIT' });
-
-
-
