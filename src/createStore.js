@@ -17,4 +17,3 @@ function render() {
   const container = document.getElementById('container');
 }
 
-let store = createStore(reducer)
